@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+	"http://www.w3.org/TR/html4/frameset.dtd">
+<HTML>
+	<HEAD>
+		<TITLE>Registration form</TITLE>
+	</HEAD>
+	<BODY>
+		<div id="registration_form">
+			<form name="f1" method="post" action="login.php" id="f1">
+				<fieldset>
+					<LEGEND>Registration Form</LEGEND>
+					<table>
+						<tr>
+							<td><label>Login:</label></td>
+							<td><input type="text" name="login" value=""></td>
+						</tr>
+						<tr>
+							<td><label>Password:</label></td>
+							<td><input type="password" name="password" value=""></td>
+						</tr>
+						<tr>
+							<td><label>Email Address:</label></td>
+							<td><input type="text" name="email" value=""></td>
+						</tr>
+						<tr>
+							<td><label>Phone:</label></td>
+							<td><input type="text" name="phone" value=""></td>
+						</tr>
+						<tr>
+							<td><label>Country:</label></td>
+							<td>
+								<SELECT NAME=sections>
+									<OPTGROUP LABEL="Europe">
+										<OPTION>France</OPTION>
+										<OPTION>Germany</OPTION>
+										<OPTION>Poland</OPTION>
+										<OPTION>Ukraine</OPTION>
+									</OPTGROUP>
+									<OPTGROUP LABEL="America">
+										<OPTION>USA</OPTION>
+										<OPTION>Mexico</OPTION>
+									</OPTGROUP>
+									
+								</SELECT>
+							</td>
+						</tr>
+						<tr>
+							<td><label>Shipping Address:</label></td>
+							<td><textarea name="shipping">
+							</textarea></td>
+						</tr>
+						<tr>
+							<td><label>Billing Address:</label></td>
+							<td><textarea name="billing">							
+							</textarea> </td>
+						</tr>
+						<tr>
+							<td><label>Personal Info:</label></td>
+							<td><textarea name="info">
+							</textarea></td>
+						</tr>
+						<tr>
+							<td> <input type="submit" name="login" value="send"></td>
+						</tr>
+						<tr>
+							<td> 
+								<input type="button" name="validate" value="validate"></td>
+							</tr>
+						</table>
+					</fieldset>
+				</form> 
+			</div>
+		</BODY>
+	</HTML>
