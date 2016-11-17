@@ -1,0 +1,91 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%
+  }
+body { 
+  font: 75% georgia, sans-serif;
+  line-height: 1.88889;
+  color: #555753; 
+  background: #fff url(http://bookflow.ru/wp-content/uploads/2016/03/1.jpg) no-repeat bottom right; 
+  margin: 0; 
+  padding: 0;
+  margin-bottom: 0;
+  height: 100%;
+  }
+a:link { 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: #B7A5DF;
+  }
+a:visited { 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: #D4CDDC;
+  }
+
+header h1 { 
+  background: transparent url(http://bookflow.ru/wp-content/uploads/2016/03/1.jpg);
+  float: left;
+  margin-left: 35;
+  }
+header h2 { 
+  float: right;
+  margin-top: 75;
+  margin-right: 35;
+
+  }
+header {
+  padding-top: 20px;
+  height: 87px;
+}
+
+footer { 
+    text-align: center fixed; 
+    position:fixed;
+    bottom:0;  
+    left: 45%;
+  }
+
+footer a:link, footer a:visited { 
+  text-align: center fixed; 
+  color: black;
+  }
+
+.h2name {
+  font-style: italic;
+}
+.content {
+  margin: 30;
+  padding: 30;
+  list-style-type: none;
+  }
+
+  #schedule_content{
+  margin-top: : 0;
+  padding: 20;
+  padding-top: 0;
+  }
+
+  #schedule_header{
+    margin-bottom: 0;
+  }
+
+.content #js_of{
+  font-weight: 160;
+}
+.content #goback {
+ text-align: left fixed; 
+    position:fixed;
+    bottom:10; 
+}
+#schedule_content #goback {
+ text-align: left fixed; 
+    position:fixed;
+    bottom:10; 
+}
+
+p.JS_academy {
+ /* font: georgia, tahoma;*/
+}
+
