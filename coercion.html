@@ -1,0 +1,64 @@
+<!DOCTYPE html><html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Type Coercion in JS">
+	<title>Type Coercion</title>
+	<link rel="stylesheet" href="coercion_style.css">
+	<script src="coercion.js"></script>
+</head>
+<body>
+	<header><div id="hh">
+		<h1>TYPE COERCION</h1>
+	</div>
+</header>
+<div id="first_div">			
+	<h2>Coercion</h2>
+	<p>kəʊˈəːʃ(ə)n/</p>
+	<p>noun</p>
+	<p>noun: <b>coercion</b>; plural noun: <b>coercions</b></p>
+	<p id="def">the action or practice of persuading someone to do something by using force or threats.</p>
+	<br>
+	<a href="https://google.com">– Google</a>
+</div>
+<div id="main_div">
+	<form action="" method="">
+		<fieldset id="fs">
+			<legend>The Abstract Equality Comparison</legend>
+			<h4>The comparison x == y, where x and y are values, produces true or false. Such a comparison is performed as follows: </h4>
+			<p>1. If Type(x) is the same as Type(y), then</p>
+			<p class="letters">a. If Type(x) is Undefined, return true.</p>
+			<p class="letters">b. If Type(x) is Null, return true.</p>
+			<p class="letters">c. If Type(x) is Number, then</p>
+			<p class="l"> I. If x is NaN, return false.</p>
+			<p class="l">II. If y is NaN, return false.</p>
+			<p class="l">III. If x is the same Number value as y, return true.</p>
+			<p class="l">IV. If x is +0 and y is −0, return true.</p>
+			<p class="l">V. If x is −0 and y is +0, return true.</p>
+			<p class="l">. Return false.</p>
+			<p class="letters">d. If Type(x) is String, then return true if x and y are exactly the same sequence of characters (same length and same characters in corresponding positions). Otherwise, return false.</p>
+			<p class="letters">e. If Type(x) is Boolean, return true if x and y are both true or both false. Otherwise, return false.</p>
+			<p class="letters">f. Return true if x and y refer to the same object. Otherwise, return false.</p>
+			<p>2. If x is null and y is undefined, return true.</p>
+			<p>3. If x is undefined and y is null, return true.</p>
+			<p>4. If Type(x) is Number and Type(y) is String, return the result of the comparison x == ToNumber(y).</p>
+			<p>5. If Type(x) is String and Type(y) is Number, return the result of the comparison ToNumber(x) == y.</p>
+			<p>6. If Type(x) is Boolean, return the result of the comparison ToNumber(x) == y.</p>
+			<p>7. If Type(y) is Boolean, return the result of the comparison x == ToNumber(y).</p>
+			<p>8. If Type(x) is either String or Number and Type(y) is Object, return the result of the comparison x == ToPrimitive(y).</p>
+			<p>9. If Type(x) is Object and Type(y) is either String or Number,
+				return the result of the comparison ToPrimitive(x) == y.</p>
+				<p>10.  Return false.  </p>
+				<table id="table"></table>
+				<input type="button" name="generate" id="generate" value="Generate the table" onclick="Generate()">	
+				<div id="expl"></div>
+			</fieldset>
+		</form>
+	</div>
+	<br>
+	<footer>
+		<br>
+		&copy Olga'sProduction
+	</footer>
+</body>
+</html>

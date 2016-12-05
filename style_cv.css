@@ -1,0 +1,55 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font: 15px arial, sans-serif;
+}
+
+body { 
+	background: #ccc;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+    text-align: center fixed; 
+    position:fixed;
+    bottom:0;  
+    left: 45%;
+}
+
+.container img {
+	float: left;
+	margin: 20px;
+}
+
+.container h3 {
+	margin: 10px
+
+}
+.container h4 {
+	margin: 10px
+}
+
+.container p {
+	width: 900px;
+}
+
+#fake_nav {
+	right: 10px; 
+	position: fixed;
+	width: 200px;
+	margin: 20px;
+
+}
+
+a:link {  
+	color: blue;
+}
+
+a:visited { 
+	font-weight: bold; 
+	color: gray;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html><html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Good&Free To Do List">
+	<title>ToDo</title>
+	<link rel="stylesheet" href="todo_style.css">
+	<script src="todo.js"></script>
+</head>
+<body>
+	<header><div id="hh">
+		<h1>ToDo, Or Not ToDo?..</h1>
+		<h2>That Is The Question</h2>
+	</div>
+	<div id="hh2">
+		<img src="qm.jpg" width="100" height="120" alt="question_mark" id="pic">
+	</div>
+	<div class="clr"></div>
+</header>
+<div id="main_div">
+	<form action="" method="">
+		<fieldset>
+			<legend>Amend your ToDo list: </legend>
+			<table>
+				<tr>
+					<td><label>I Should DO:</label></td>
+					<td><input type="text" name="todo" size="60" id="todo"></td>
+				</tr>
+			</table>
+			<input type="button" class = "btn" name="submit" value="Add" onclick="AddToList()"/>
+		</fieldset>
+	</form>
+</div>
+<br>
+<div id="second_div">
+	<fieldset id="fs">
+		<legend>Your ToDo list:</legend>
+		<p id="empty">Oops, It's Empty!</p>
+		<ol id="list"></ol>
+		<div id="stat"></div>
+	</fieldset>
+</div>
+<div id="third_div">
+</div>
+<footer>
+<br>
+&copy ToDo Production
+</footer>
+</body>
+</html>
